@@ -1,0 +1,383 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/* ===================header section css start===================== */
+.header{
+	background-color:#fff;
+}
+.headerlinks{
+	background-color:#f5f7fa;
+}
+.headericons,.socialicons{
+	padding:15px 0;
+}
+.headericons li,.socialicons li{
+	display:inline-block;
+	list-style:none;
+}
+.headericons li a{
+	color:#afb9c5;
+}
+.headericons li a{
+	margin-right:10px;
+}
+.headericons li:nth-child(3){
+	margin-right:10px;
+} 
+.socialicons li a{
+	font-size:10px;
+}
+.socialicons li a i{
+	color:#506a85;
+	padding-right:30px;
+}
+.logo{
+	font-size:45px;
+}
+.navbar li{
+	display:inline-block;
+	margin:0 6px;
+	padding:50px 0;
+	
+}
+.navbar li a{
+	color:#506a85;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:0 6px;
+}
+.search{
+	position:absolute;
+	top:100px;
+	right:185px;
+}
+/* =========================== main section css start  ============================ */
+.heroimg{
+	height:100vh;
+	background-image:url(../images/heroimg.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+}
+.section .caption{
+	position:absolute;
+	/* padding:300px 0; */
+	left:50%;
+	top:50%;
+	bottom:50%;
+	transform:translate(-50%,-50%);
+	z-index:1;
+}
+.heading-primary{
+	font-size:65px;
+	color:#fff;
+	text-transform:uppercase;
+	font-family: 'Lato', sans-serif;
+
+	/* width:115%; */
+}
+.para{
+	font-size:24px;
+	color:#a3b1bf;
+}
+.btn{
+	height:70px;
+	width:300px;
+	text-transform:uppercase;
+	background-color:#fff;
+	color:#00bc9c;
+	border:none;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:5px;
+	/* outline:none; */
+}
+.btn:hover{
+	color:#fff;
+	background-color:#00bc9c;
+}
+.pagination{
+	background-color:white;
+	padding:5px;
+	position:absolute;
+	left:50%;
+	top:124%;
+	transform:translate(-50%, -50%);
+}
+.pagination span,.pagination-2 span{
+	width:10px;
+	height:10px;
+	display:inline-block;
+	border-radius:50%;
+	padding:8px;
+	cursor:pointer;
+	background-color:#506a85;
+}
+.pagination span:hover,
+.pagination span:focus,
+.pagination span:active,
+.pagination span.active{
+	background-color:#00bc9c;
+}
+/* ===================================post section css start========================== */
+.post{
+	padding:130px 0;
+}
+.heading-secondary{
+	font-size:44px;
+	color:#506a85;
+	margin-bottom:40px;
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+}
+.info{
+	font-size:22px;
+	color:#73879c;
+	margin-bottom:80px;
+	font-weight:regular;
+	line-height:2;
+}
+.thumbimg{
+	padding-right:15px;
+}
+.thumbnail{
+	padding-left:15px;
+}
+.heading-thumbnail{
+	font-size:26px;
+	color:#73879c;
+	font-weight:bold;
+	margin-bottom:30px;
+	
+}
+.thumbinfo{
+	font-size:16px;
+	color:#73879c;
+	font-weight:400;
+	
+}
+/* ===================newpost section css start======================== */
+.newpost{
+	padding:130px 0;
+	background-color:#f1f5f7;
+	position:relative;
+}
+.mainheading{
+	font-size:44px;
+	color:#506a85;
+	font-weight:bold;
+	margin-bottom:30px;
+	font-family: 'Lato', sans-serif;
+	
+}
+.subheading{
+	font-size:22px;
+	color:#73879c;
+	font-weight:400;
+	margin-bottom:80px;
+}
+.img1{
+	width:100%;
+}
+.imginfo{
+	background-color:#ffffff;
+	padding:30px 0;
+}
+.imgheading{
+	font-size:20px;
+	color:#506a85;
+	font-weight:bold;
+	margin-bottom:10px;
+	font-family: 'Lato', sans-serif;
+}
+.imgsubheading{
+	font-size:14px;
+	color:#73879c;
+}
+.pagination-2{
+	padding:5px;
+	position:absolute;
+	left:48%;
+	top:90.5%;
+	background-color:#f1f5f7;
+}
+.pagination-2 span:hover,
+.pagination-2 span:focus,
+.pagination-2 span:active,
+.pagination-2 span.active-2{
+	background-color:#00bc9c;
+}
+.newpost .icon1{
+	left:46%;
+	top:90.5%;
+}
+.newpost .icon2{
+	left:53%;
+	top:90.5%;
+}
+.newpost .icon1,.icon2{
+	position:absolute;
+	border:none;
+	border:2px solid #506a85;
+	border-radius:5px;
+	background-color:#506a85;
+	cursor:pointer;
+	padding:5px;
+}
+.newpost .icon1:hover{
+	background-color:#c9d2da;
+}
+.newpost .icon2:hover{
+	background-color:#c9d2da;
+}
+/* ====================================last section css start=========================== */
+.lastsection{
+	padding:130px 0;
+	
+}
+.lastheading{
+	font-size:44px;
+	color:#506a85;
+	font-weight:bold;
+	margin-bottom:40px;
+	font-family: 'Lato', sans-serif;
+
+}
+.lastpara{
+	font-size:22px;
+	color:#73879c;
+	margin-bottom:45px;
+}
+.lastbutton{
+	height:50px;
+	width:150px;
+	text-transform:uppercase;
+	font-size:13px;
+	color:#ffffff;
+	padding:19px 26px;
+	background-color:#00bc9c;
+	border-radius:5px;
+	font-weight:bold;
+	border:none;
+	font-family: 'Lato', sans-serif;
+}
+.lastbutton:hover{
+	background-color:#fff;
+	color:#000;
+	border:2px solid #00bc9c;
+}
+/* ==========================================footer section css start========================= */
+.footer1{
+	padding:130px 0;
+	background-color:#2f4052;
+	position:relative;
+}
+.footer1 .heading-primary{
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	font-family: 'Lato', sans-serif;
+}
+.footer1 .logo{
+	display:inline-block;
+}
+.footer1 .para{
+	font-size:14px;
+	font-weight:400;
+	color:#a3b1bf;
+	line-height:2;
+	width:82%;
+}
+.footer1 .aboutus{
+	font-size:15px;
+	color:#a3b1bf;
+	font-weight:bold;
+}
+.footer1 .img1, .img4 ,.img7 ,.img8{
+	width:125px;
+	height:85px;
+}
+.footer1 .list li,.list a{
+	color:#a3b1bf;
+	font-size:14px;
+}
+.footer1 .list li{
+	margin-bottom:12px;
+}
+.footer1 .list li img{
+	margin-right:10px;
+}
+.footer1 .email{
+	font-size:14px;
+	font-weight:400;
+	color:#a3b1bf;
+	width:100%;
+	height:50px;
+	background-color:#4e5c6c;
+	border-radius:5px;
+	border:none;
+	outline:none;
+	padding-left:10px;
+}
+.subscribe{
+	font-size:12px;
+	color:#fff;
+	background-color:#00bc9c;
+	border-radius:5px;
+	height:25px;
+	width:90px;
+	position:absolute;
+	right:12%;
+	padding:10px;
+	text-transform:uppercase;
+	top:52%;
+	border:none;
+}
+.subscribe:hover{
+	color:#000;
+	background-color:#fff;
+	border:2px solid #00bc9c;
+}
+/* ===================footer2 css start==================  */
+.footer2{
+	padding:35px 0;
+	background-color:#283645;
+	z-index:1;
+	
+}
+.footer2 .heading{
+	font-size:14px;
+	color:#707e8c;
+	width:110%;
+	font-family: 'Lato', sans-serif;
+}
+.footer2 .list li{
+	display:inline-block;
+	margin-left:6px;
+}
+.footer2 .list li a{
+	text-transform:capitalize;
+	padding-right:6px;
+	color:707e8c;
+	font-size:14px;
+	
+}
+.footericon{
+	float:right;
+	
+	color:#00bc9c;
+	padding:10px;
+	background-color:#506a85;
+	margin:-24px 20px;
+	
+}
+.footericon {
+	/* position:fixed; */
+	
+}
